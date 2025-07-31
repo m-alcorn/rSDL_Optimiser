@@ -1,6 +1,5 @@
 # SDL OPTIMIZATION CONFIGURATION
 # Template configuration file for SDL optimization
-# Copy this file and modify values as needed
 
 # Load this configuration with: source("SDL_Opt_Config.R")
 
@@ -13,14 +12,14 @@ MAX_ITERATIONS <- 12
 
 # Project paths ----
 # Use relative paths where possible for portability
-PROJECT_FOLDER <- "E:/ACT_Uplift/Models/PopulationV3/run1"
-SOURCE_VERSION <- "E:/Source/550" 
-ARCHIVE_FOLDER <- "E:/ACT_Uplift/Models/PopulationV3/bak"
+# PROJECT_FOLDER <- "E:/ACT_Uplift/Models/PopulationV3/run1"
+SOURCE_VERSION <- "E:/Source/550" # Replace with your Source location..
+#ARCHIVE_FOLDER <- "E:/ACT_Uplift/Models/PopulationV3/bak"
 
 # Alternatively, use relative paths:
-# PROJECT_FOLDER <- file.path(getwd(), "Models", "PopulationV3", "run1")
+PROJECT_FOLDER <- file.path(getwd(), "Models", "PopulationV3", "run1")
 # SOURCE_VERSION <- file.path(getwd(), "Source", "550")
-# ARCHIVE_FOLDER <- file.path(getwd(), "Models", "PopulationV3", "bak")
+ARCHIVE_FOLDER <- file.path(getwd(), "Models", "PopulationV3", "bak")
 
 # File names ----
 SCENARIO_FILE <- "Population_Function_Setup.csv"
