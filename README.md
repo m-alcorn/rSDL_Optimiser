@@ -6,7 +6,7 @@
 
 A robust R package for optimizing population parameters in the Basin Development Limit (BDL) framework using Source/Veneer integration. This tool provides automated optimization of SDL (Sustainable Diversion Limits) parameters with multiple solver methods and comprehensive visualization.
 
-## 🎯 Overview
+##  Overview
 
 The rBDL Optimisation package automates the process of finding optimal population parameters that achieve target net water take values within specified tolerance limits. It integrates with Source water resource models via the Veneer API and provides sophisticated optimization algorithms with real-time monitoring and visualization.
 
@@ -20,7 +20,7 @@ The rBDL Optimisation package automates the process of finding optimal populatio
 - **Batch Processing**: Run multiple optimization scenarios automatically
 - **Source Integration**: Seamless integration with Source water models via Veneer API
 
-## 📋 Requirements
+##  Requirements
 
 ### System Requirements
 - **R**: Version ≥ 4.0.0
@@ -372,4 +372,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the water resources modeling community**
+
