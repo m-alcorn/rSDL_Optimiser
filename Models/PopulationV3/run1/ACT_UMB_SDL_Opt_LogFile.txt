@@ -1,0 +1,78 @@
+SDL Optimization Log File. Created: 2025-07-31 13:19:22
+2025-07-31 13:19:22 Setting up optimized SDL solver...
+2025-07-31 13:19:22 Starting optimization...
+2025-07-31 13:19:22 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:19:22 STARTING SDL POPULATION OPTIMIZATION
+2025-07-31 13:19:22 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:19:22 Target Net Take: 36.34 GL
+2025-07-31 13:19:22 Tolerance: 0.01 GL
+2025-07-31 13:19:22 Population Range: 5e+05 to 1,500,000 
+2025-07-31 13:19:22 Method: SECANT 
+2025-07-31 13:19:22 Model Period: 01/07/1890 to 30/06/1905 
+2025-07-31 13:19:22 Analysis Window: 1895-07-01 to 1904-06-30 
+2025-07-31 13:19:22 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+2025-07-31 13:19:22 Phase 1: Initial sampling...
+2025-07-31 13:19:22  Iteration 1 : Population = 850,000 
+2025-07-31 13:19:26  ERROR in retrieving Veneer time series : cannot open the connection to 'http://localhost:9876/runs/latest/location/Functions/element/Functions/variable/Functions@ACT_Net_Take@$f_Net_Take' 
+2025-07-31 13:19:26 ERROR: Failed in retrieving Veneer time series : cannot open the connection to 'http://localhost:9876/runs/latest/location/Functions/element/Functions/variable/Functions@ACT_Net_Take@$f_Net_Take' 
+2025-07-31 13:25:01 Setting up optimized SDL solver...
+2025-07-31 13:25:01 Starting optimization...
+2025-07-31 13:25:01 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:25:01 STARTING SDL POPULATION OPTIMIZATION
+2025-07-31 13:25:01 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:25:01 Target Net Take: 36.34 GL
+2025-07-31 13:25:01 Tolerance: 0.01 GL
+2025-07-31 13:25:01 Population Range: 5e+05 to 1,500,000 
+2025-07-31 13:25:01 Method: SECANT 
+2025-07-31 13:25:01 Model Period: 01/07/1890 to 30/06/1905 
+2025-07-31 13:25:01 Analysis Window: 1895-07-01 to 1904-06-30 
+2025-07-31 13:25:01 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+2025-07-31 13:25:01 Phase 1: Initial sampling...
+2025-07-31 13:25:01  Iteration 1 : Population = 850,000 
+2025-07-31 13:26:10 , Net Take = 40.32 GL, Residual = 3.9756 GL
+2025-07-31 13:26:11  Iteration 2 : Population = 1,250,000 
+2025-07-31 13:27:17 , Net Take = 50.83 GL, Residual = 14.4881 GL
+2025-07-31 13:27:17 
+Phase 2: Iterative refinement...
+2025-07-31 13:27:17  Iteration 3 : Population = 698,727 
+2025-07-31 13:28:22 , Net Take = 35.71 GL, Residual = 0.6328 GL
+2025-07-31 13:28:22  Iteration 4 : Population = 721,799 
+2025-07-31 13:29:31 , Net Take = 36.41 GL, Residual = 0.07 GL
+2025-07-31 13:29:31  Iteration 5 : Population = 719,500 
+2025-07-31 13:30:39 , Net Take = 36.34 GL, Residual = 0 GL
+2025-07-31 13:30:39 
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:30:39 SDL OPTIMIZATION COMPLETE
+2025-07-31 13:30:39 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:30:39 Optimum Population = 719,500 
+2025-07-31 13:30:39 Final Net Take = 36.34 GL
+2025-07-31 13:30:39 Final Residual = 0 GL
+2025-07-31 13:30:39 Number of runs required = 5 
+2025-07-31 13:30:39 Converged: YES 
+2025-07-31 13:30:39 Model Run Period: 01/07/1890 - 30/06/1905 
+2025-07-31 13:30:39 Execution Time: 5.63 mins 
+2025-07-31 13:30:39 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2025-07-31 13:30:39 Creating enhanced visualization...
+2025-07-31 13:30:41 Enhanced plots saved to:  ACT_SDL_Population_20250731_133040.png 
+2025-07-31 13:30:41 Saving results...
+[1mwrote[0m [32m2.15GB[0m in [36m 0s[0m, [32m2.15GB/s[0m                                                                                                                         2025-07-31 13:30:41 Results saved to:  SDL_Opt_Population_V3_Veneer_AnnualMeans_v21.5.csv 
+[1mwrote[0m [32m133.00B[0m in [36m 0s[0m, [32m5.36MB/s[0m                                                                                                                         [1mwrote[0m [32m2.15GB[0m in [36m 0s[0m, [32m2.15GB/s[0m                                                                                                                         2025-07-31 13:30:41 Summary saved to: optimization_summary.csv
+2025-07-31 13:30:41 
+Final Results Summary:
+  Run Population  NetTake     Residual
+1   1     850000 40.31563 3.975626e+00
+2   2    1250000 50.82810 1.448810e+01
+3   3     698727 35.70716 6.328400e-01
+4   4     721799 36.41004 7.003841e-02
+5   5     719500 36.34000 3.841061e-07
+2025-07-31 13:30:41 
+🎉 Optimization completed successfully!
+2025-07-31 13:30:41 Check the outputs folder for enhanced plots and summary files.
+2025-07-31 13:30:41 Backing up run to archive folder...
+Creating archive of run...
+Copying files from:  E:/R/shSDL/Models/PopulationV3/run1  to:  E:/R/shSDL/Models/PopulationV3/bak/SDL_Opt_secant 
+Files copied successfully.
