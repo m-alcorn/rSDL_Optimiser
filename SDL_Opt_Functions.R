@@ -49,7 +49,7 @@ setup_project_files <- function(config) {
   }
   
   # Set working directory
-  setwd(project_folder)
+  # setwd(project_folder)
   cat("Project Directory confirmed: ", project_folder, "\n")
   
   # Create outputs directory if needed
