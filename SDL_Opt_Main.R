@@ -188,7 +188,7 @@ main <- function() {
     stop(e)
   })
 }
-
+# Execute main function 
 main()
 
 # Execute main function if script is run directly
